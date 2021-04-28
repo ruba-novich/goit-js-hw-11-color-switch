@@ -1,0 +1,19 @@
+
+button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border: 1px;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background:  #E38916;
+  transition: 0.2s;
+} 
+
+button[disabled]{
+  border: 1px solid #999999;
+  color: #666666;
+}
